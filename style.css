@@ -10,10 +10,16 @@
   clear: both;
 }
 
+body {
+  background-image: url("img/bg.jpg");
+  background-color: #cccccc;
+  
+}
 
 main {
   width: 1020px;
   margin: auto;
+  background-color: white;
 }
 
 .back-black {
@@ -22,7 +28,7 @@ main {
 
 nav {
   height: 60px;
-  padding-left: 180px;
+  padding-left: 190px;
   padding-top: 15px;
 }
 
@@ -41,6 +47,7 @@ nav h1 a {
   color: #cfa205;
   font-size: 18px;
   padding-top: 6px;
+  font-family: "Josefin Sans";
 }
 
 
@@ -49,6 +56,8 @@ nav h1 a {
   color: white;
   font-size: 18px;
   padding-left: 20px;
+  font-family: "Josefin Sans";
+  font-weight: bold;
 }
 
 .menu li {
@@ -62,9 +71,114 @@ nav h1 a {
   font-size: 133px;
   color: #cfa205;
   font-family: "Josefin Sans";
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 header {
-  height: 380px;
+  height: 320px;
+}
+
+.soustxt {
+  color: #cfa205;
+  text-align: center;
+  padding-top: 70px;
+  font-size: 18px;
+  font-family: "Bitter";
+  font-weight: bold;
+}
+
+header .fa-circle {
+  font-size: 7px;
+  vertical-align: top;
+  margin-top: 7px;
+}
+
+/*ici barre reseau*/
+
+.reseau {
+  height: 60px;
+  background-color: #E8E8E8;
+}
+
+.reseau {
+  text-align: center;
+  padding-top: 10px;
+}
+
+a span {
+  color: #7A7A7A;
+}
+
+section a {
+  color: #E8E8E8;
+}
+
+
+.space {
+  height: 60px;
+}
+
+/*section paragraphe*/
+
+.secpara {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  width: 900px;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 2px #E8E8E8;
+}
+
+.para {
+  text-align: center;
+  color: #7a7a7a;
+  font-size: 18px;
+  font-family: "Bitter";
+  font-weight: bold;
+
+}
+
+/*section article */
+
+.secarticle {
+  width: 900px;
+  height: 675px;
+  margin: auto;
+  background-color: white;
+}
+
+.artleft {
+  width: 260px;
+  height: 480px;
+  float: left;
+}
+
+.midarticle {
+  width: 260px;
+  height: 480px;
+  float: left;
+  margin-left: 60px;
+}
+
+.rightarticle {
+  width: 260px;
+  height: 480px;
+  float: left;
+  margin-left: 60px;
+}
+
+.titlearticle {
+  font-size: 18px;
+  font-family: "Bitter";
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.paragarticle {
+  font-size: 14px;
+  font-family: "Bitter";
+  color: #7a7a7a;
+  padding-top: 30px;
+  line-height: 23px;
 }
